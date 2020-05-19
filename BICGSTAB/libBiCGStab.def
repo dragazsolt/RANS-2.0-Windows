@@ -1,0 +1,38 @@
+EXPORTS
+    _ZN4Foam14bicgStabSolver5debugE @1 DATA
+    _ZN4Foam14bicgStabSolver8typeNameE @2 DATA
+    _ZN4Foam14bicgStabSolverC1ERKNS_4wordERKNS_9lduMatrixERKNS_10FieldFieldINS_5FieldEdEESB_RKNS_8UPtrListIKNS_17lduInterfaceFieldEEERKNS_10dictionaryE @3
+    _ZN4Foam14bicgStabSolverC2ERKNS_4wordERKNS_9lduMatrixERKNS_10FieldFieldINS_5FieldEdEESB_RKNS_8UPtrListIKNS_17lduInterfaceFieldEEERKNS_10dictionaryE @4
+    _ZN4Foam14bicgStabSolverD0Ev @5
+    _ZN4Foam14bicgStabSolverD1Ev @6
+    _ZN4Foam17SolverPerformanceIdE16checkConvergenceERKdS3_ @7
+    _ZN4Foam17simpleRegIOobjectD0Ev @8
+    _ZN4Foam17simpleRegIOobjectD1Ev @9
+    _ZN4Foam24addbicgStabSolverToDebug8readDataERNS_7IstreamE @10
+    _ZN4Foam24addbicgStabSolverToDebugD0Ev @11
+    _ZN4Foam24addbicgStabSolverToDebugD1Ev @12
+    _ZN4Foam25addbicgStabSolverToDebug_E @13 DATA
+    _ZN4Foam45addbicgStabSolverSymMatrixConstructorToTable_E @14 DATA
+    _ZN4Foam46addbicgStabSolverAsymMatrixConstructorToTable_E @15 DATA
+    _ZN4Foam5FieldIdEaSERKS1_ @16
+    _ZN4Foam9HashTableIPFNS_7autoPtrINS_9lduMatrix6solverEEERKNS_4wordERKS2_RKNS_10FieldFieldINS_5FieldEdEESE_RKNS_8UPtrListIKNS_17lduInterfaceFieldEEERKNS_10dictionaryEES5_NS_6string4hashEE5clearEv @17
+    _ZN4Foam9HashTableIPFNS_7autoPtrINS_9lduMatrix6solverEEERKNS_4wordERKS2_RKNS_10FieldFieldINS_5FieldEdEESE_RKNS_8UPtrListIKNS_17lduInterfaceFieldEEERKNS_10dictionaryEES5_NS_6string4hashEE6resizeEi @18
+    _ZN4Foam9lduMatrix6solver30addsymMatrixConstructorToTableINS_14bicgStabSolverEE3NewERKNS_4wordERKS0_RKNS_10FieldFieldINS_5FieldEdEESE_RKNS_8UPtrListIKNS_17lduInterfaceFieldEEERKNS_10dictionaryE @19
+    _ZN4Foam9lduMatrix6solver30addsymMatrixConstructorToTableINS_14bicgStabSolverEEC1ERKNS_4wordE @20
+    _ZN4Foam9lduMatrix6solver31addasymMatrixConstructorToTableINS_14bicgStabSolverEE3NewERKNS_4wordERKS0_RKNS_10FieldFieldINS_5FieldEdEESE_RKNS_8UPtrListIKNS_17lduInterfaceFieldEEERKNS_10dictionaryE @21
+    _ZN4Foam9lduMatrix6solver31addasymMatrixConstructorToTableINS_14bicgStabSolverEEC1ERKNS_4wordE @22
+    _ZNK4Foam14bicgStabSolver4typeEv @23
+    _ZNK4Foam14bicgStabSolver5solveERNS_5FieldIdEERKS2_h @24
+    _ZNK4Foam24addbicgStabSolverToDebug9writeDataERNS_7OstreamE @25
+    _ZTIN4Foam14bicgStabSolverE @26 DATA
+    _ZTIN4Foam17simpleRegIOobjectE @27 DATA
+    _ZTIN4Foam24addbicgStabSolverToDebugE @28 DATA
+    _ZTIN4Foam9lduMatrix6solverE @29 DATA
+    _ZTSN4Foam14bicgStabSolverE @30 DATA
+    _ZTSN4Foam17simpleRegIOobjectE @31 DATA
+    _ZTSN4Foam24addbicgStabSolverToDebugE @32 DATA
+    _ZTSN4Foam9lduMatrix14preconditionerE @33 DATA
+    _ZTSN4Foam9lduMatrix6solverE @34 DATA
+    _ZTVN4Foam14bicgStabSolverE @35 DATA
+    _ZTVN4Foam17simpleRegIOobjectE @36 DATA
+    _ZTVN4Foam24addbicgStabSolverToDebugE @37 DATA
