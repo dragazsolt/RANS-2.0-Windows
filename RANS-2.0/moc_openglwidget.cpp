@@ -20,8 +20,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_OpenglWidget_t {
-    QByteArrayData data[73];
-    char stringdata0[977];
+    QByteArrayData data[74];
+    char stringdata0[986];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -102,7 +102,8 @@ QT_MOC_LITERAL(68, 918, 11), // "MinVolRatio"
 QT_MOC_LITERAL(69, 930, 21), // "DisplayLocationInMesh"
 QT_MOC_LITERAL(70, 952, 12), // "SetClipPlane"
 QT_MOC_LITERAL(71, 965, 5), // "plane"
-QT_MOC_LITERAL(72, 971, 5) // "value"
+QT_MOC_LITERAL(72, 971, 5), // "value"
+QT_MOC_LITERAL(73, 977, 8) // "XSection"
 
     },
     "OpenglWidget\0SendSelectedPartID\0\0PID\0"
@@ -132,7 +133,7 @@ QT_MOC_LITERAL(72, 971, 5) // "value"
     "MaxBoundarySkewness\0MaxInternalSkewness\0"
     "MinDeterminant\0MinFaceWeight\0MinVolRatio\0"
     "DisplayLocationInMesh\0SetClipPlane\0"
-    "plane\0value"
+    "plane\0value\0XSection"
 };
 #undef QT_MOC_LITERAL
 
@@ -164,7 +165,7 @@ static const uint qt_meta_data_OpenglWidget[] = {
       41,    2,  156,    2, 0x08 /* Private */,
       43,   25,  161,    2, 0x08 /* Private */,
       69,    3,  212,    2, 0x08 /* Private */,
-      70,    2,  219,    2, 0x08 /* Private */,
+      70,    3,  219,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::UInt,    3,
@@ -181,7 +182,7 @@ static const uint qt_meta_data_OpenglWidget[] = {
     QMetaType::Void, QMetaType::UInt, 0x80000000 | 36,    3,   42,
     QMetaType::Void, QMetaType::Bool, QMetaType::Bool, QMetaType::Bool, QMetaType::UInt, QMetaType::UInt, QMetaType::UInt, QMetaType::UInt, QMetaType::Float, QMetaType::UInt, QMetaType::Float, QMetaType::UInt, QMetaType::UInt, QMetaType::UInt, QMetaType::Bool, QMetaType::Bool, QMetaType::Float, QMetaType::Float, QMetaType::Float, QMetaType::Float, QMetaType::Float, QMetaType::UInt, QMetaType::UInt, QMetaType::Float, QMetaType::Float, QMetaType::Float,   44,   45,   46,   47,   48,   49,   50,   51,   52,   53,   54,   55,   56,   57,   58,   59,   60,   61,   62,   63,   64,   65,   66,   67,   68,
     QMetaType::Void, QMetaType::Float, QMetaType::Float, QMetaType::Float,    8,    9,   10,
-    QMetaType::Void, QMetaType::QString, QMetaType::Float,   71,   72,
+    QMetaType::Void, QMetaType::QString, QMetaType::Float, QMetaType::Bool,   71,   72,   73,
 
        0        // eod
 };
@@ -205,7 +206,7 @@ void OpenglWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 9: _t->SetPartLayerRefinement((*reinterpret_cast< const uint(*)>(_a[1])),(*reinterpret_cast< const QList<float>(*)>(_a[2]))); break;
         case 10: _t->GetSnappyHexMeshSet((*reinterpret_cast< bool(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< const uint(*)>(_a[4])),(*reinterpret_cast< const uint(*)>(_a[5])),(*reinterpret_cast< const uint(*)>(_a[6])),(*reinterpret_cast< const uint(*)>(_a[7])),(*reinterpret_cast< const float(*)>(_a[8])),(*reinterpret_cast< const uint(*)>(_a[9])),(*reinterpret_cast< const float(*)>(_a[10])),(*reinterpret_cast< const uint(*)>(_a[11])),(*reinterpret_cast< const uint(*)>(_a[12])),(*reinterpret_cast< const uint(*)>(_a[13])),(*reinterpret_cast< bool(*)>(_a[14])),(*reinterpret_cast< bool(*)>(_a[15])),(*reinterpret_cast< const float(*)>(_a[16])),(*reinterpret_cast< const float(*)>(_a[17])),(*reinterpret_cast< const float(*)>(_a[18])),(*reinterpret_cast< const float(*)>(_a[19])),(*reinterpret_cast< const float(*)>(_a[20])),(*reinterpret_cast< const uint(*)>(_a[21])),(*reinterpret_cast< const uint(*)>(_a[22])),(*reinterpret_cast< const float(*)>(_a[23])),(*reinterpret_cast< const float(*)>(_a[24])),(*reinterpret_cast< const float(*)>(_a[25]))); break;
         case 11: _t->DisplayLocationInMesh((*reinterpret_cast< const float(*)>(_a[1])),(*reinterpret_cast< const float(*)>(_a[2])),(*reinterpret_cast< const float(*)>(_a[3]))); break;
-        case 12: _t->SetClipPlane((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const float(*)>(_a[2]))); break;
+        case 12: _t->SetClipPlane((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const float(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
