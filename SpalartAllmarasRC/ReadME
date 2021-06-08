@@ -1,3 +1,6 @@
+1.
+   copy all files to the windows/system32 folder
+2. 
 Rotation and Curvature correction of SA Model (SpalartShurCorrection) 
 ControlDict:
   Add line: 
