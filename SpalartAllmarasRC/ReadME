@@ -1,0 +1,22 @@
+Rotation and Curvature correction of SA Model (SpalartShurCorrection) 
+ControlDict:
+  Add line: 
+        libs ("libSpalartAllmarasRC.so");  
+  
+RASProperties: 
+ SpalartAllmarasCoeffsRC
+{
+    ashfordCorrection       false;
+    spalartShurCorrection   true;
+}
+
+Add please add lines to fvSchemes divSchemes: 
+	  div(phi,Sxx)    bounded Gauss linear;
+    div(phi,Sxy)    bounded Gauss linear;
+    div(phi,Sxz)    bounded Gauss linear;
+    div(phi,Syx)    bounded Gauss linear;
+    div(phi,Syy)    bounded Gauss linear;
+    div(phi,Syz)    bounded Gauss linear;
+    div(phi,Szx)    bounded Gauss linear;
+    div(phi,Szy)    bounded Gauss linear;
+    div(phi,Szz)    bounded Gauss linear;
