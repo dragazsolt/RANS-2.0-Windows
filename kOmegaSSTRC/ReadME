@@ -1,5 +1,7 @@
 KOmegaSST Curvature Correction 
-
+1.
+copy all files to the windows/system32 folder
+2.
 ControlDict: 
 Add line: 
     libs ("libkOmegaSSTRC.so")
