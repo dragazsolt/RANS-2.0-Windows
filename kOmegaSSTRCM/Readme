@@ -1,0 +1,12 @@
+kOmegaSST Model with simple rotation crvature correction 
+Controldict: 
+   libs ("libkOmegaSSTRCM.so"); 
+   
+RASProperties: 
+kOmegaSSTRCM 
+
+Curvature parameters: 
+   Cr1=1.0; 
+   Cr2=2.0; 
+   cr3=0.6; 
+   
