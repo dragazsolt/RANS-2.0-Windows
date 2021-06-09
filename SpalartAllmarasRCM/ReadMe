@@ -1,0 +1,17 @@
+Spalart Allmaras model with simple rotation curvature correction 
+
+Controldict:
+  libs ("libSpalartAllmarasRCM.so") 
+  
+  Copy all files into windows/system32 
+ 
+ RASProperties 
+  SpalartAllmarasRCM 
+  
+  Curvature parameters: 
+  Cr1=1.0 
+  cr2=2.0;  
+  cr3=0.6 
+  
+ It can be changed to fit your measuremenets 
+ 
