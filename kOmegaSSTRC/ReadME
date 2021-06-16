@@ -1,0 +1,4 @@
+Spalart Shur correction 
+Same as Spalart Allmaras RC  
+
+libs("libkOmegaSSTRC.so"); 
